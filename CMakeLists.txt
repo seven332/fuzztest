@@ -35,7 +35,7 @@ include(cmake/FuzzTestFlagSetup.cmake)
 
 fuzztest_setup_fuzzing_flags()
 
-include(cmake/BuildDependencies.cmake)
+# include(cmake/BuildDependencies.cmake)
 
 include_directories(${re2_SOURCE_DIR})
 
